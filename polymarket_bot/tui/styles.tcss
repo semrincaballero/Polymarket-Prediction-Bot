@@ -1,0 +1,18 @@
+/* Polymarket Prediction Bot — Textual stylesheet */
+
+Screen { layout: vertical; background: $surface; }
+Header { background: $primary; color: $text; }
+#tabs { height: 1fr; }
+TabPane { padding: 0 1; }
+
+.pane-title {
+    text-style: bold;
+    color: $accent;
+    margin: 0 0 1 0;
+}
+
+MarketTable { height: 1fr; margin-top: 1; }
+PositionTable { height: 1fr; margin-top: 1; }
+DataTable { background: $panel; height: auto; }
+BookView { margin-top: 1; padding: 1 1; border: round $panel; }
+SignalList { margin-top: 1; padding: 1 1; border: round $panel; }
